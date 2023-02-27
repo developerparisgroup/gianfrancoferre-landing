@@ -8,7 +8,7 @@ import { Image, Segment } from 'semantic-ui-react';
 import Counter from "./components/Counter";
 import Welcome from './components/Welcome';
 
-import bgImage from './assets/images/bg.svg';
+import bgImage from './assets/images/bg.jpg';
 import logoImage from './assets/images/logo.svg';
 import facebookLogo from './assets/images/facebook.svg';
 import instagramLogo from './assets/images/instagram.svg';
