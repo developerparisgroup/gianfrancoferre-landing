@@ -160,7 +160,7 @@ const styles = {
         padding: "1.5rem 5rem",
         paddingRight: 60,
         border: "3px solid black",
-        background: "linear-gradient(to left, black 50%, white 0%)",
+        background: "linear-gradient(to right, white 50%, black 0%)",
         backgroundSize: "200% 100%",
         boxShadow: "none",
         position: 'relative',

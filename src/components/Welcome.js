@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Header, Segment, Image, Button, Modal, Grid, GridColumn } from 'semantic-ui-react';
+import { Header, Segment, Image, Button, Modal } from 'semantic-ui-react';
 import SubscribeForm from './SubscribeForm';
 import checkImage from '../assets/images/check.svg';
 import { Container } from '@mui/material';
@@ -78,7 +78,7 @@ const styles = {
         color: "white",
     },
     header2: {
-        fonFamily: 'Gilroy',
+        fontFamily: 'Gilroy',
         fontWeight: "300",
         fontSize: '1.5rem',
         letterSpacing: "0.01em",
