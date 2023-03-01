@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gianfrancoferre-landing/static/css/main.28d8f36a.css",
-    "main.js": "/gianfrancoferre-landing/static/js/main.e744be0b.js",
+    "main.css": "/gianfrancoferre-landing/static/css/main.320800a7.css",
+    "main.js": "/gianfrancoferre-landing/static/js/main.9b2ee79f.js",
     "static/js/787.28525a86.chunk.js": "/gianfrancoferre-landing/static/js/787.28525a86.chunk.js",
     "static/media/bg.jpg": "/gianfrancoferre-landing/static/media/bg.63ff465ac58bb936d924.jpg",
     "static/media/brand-icons.svg": "/gianfrancoferre-landing/static/media/brand-icons.6729d29753e000c17489.svg",
@@ -34,12 +34,12 @@
     "static/media/facebook.svg": "/gianfrancoferre-landing/static/media/facebook.4ed54feb1fd5540b0543f33d0b31412f.svg",
     "index.html": "/gianfrancoferre-landing/index.html",
     "static/media/check.svg": "/gianfrancoferre-landing/static/media/check.9628265b00b4da8bfc0e8010519ce855.svg",
-    "main.28d8f36a.css.map": "/gianfrancoferre-landing/static/css/main.28d8f36a.css.map",
-    "main.e744be0b.js.map": "/gianfrancoferre-landing/static/js/main.e744be0b.js.map",
+    "main.320800a7.css.map": "/gianfrancoferre-landing/static/css/main.320800a7.css.map",
+    "main.9b2ee79f.js.map": "/gianfrancoferre-landing/static/js/main.9b2ee79f.js.map",
     "787.28525a86.chunk.js.map": "/gianfrancoferre-landing/static/js/787.28525a86.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.28d8f36a.css",
-    "static/js/main.e744be0b.js"
+    "static/css/main.320800a7.css",
+    "static/js/main.9b2ee79f.js"
   ]
 }
