@@ -4,8 +4,6 @@ import "@fontsource/poppins";
 import "@fontsource/baskervville";
 import './App.css';
 import { Image, Segment } from 'semantic-ui-react';
-import MediaQuery from 'react-responsive';
-
 
 import Counter from "./components/Counter";
 import Welcome from './components/Welcome';
