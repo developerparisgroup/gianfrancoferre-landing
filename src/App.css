@@ -14,14 +14,14 @@ body {
   font-size: 1.6rem;
 }
 
-
+.borderdText {
+  -webkit-text-fill-color: transparent !important;
+  -webkit-text-stroke-width: .5px !important;
+  -webkit-text-stroke-color: rgba(255, 255, 255, 0.5) !important;
+}
 
 @keyframes noz {
-  from {
+  from {}
 
-  }
-
-  to {
-
-  }
+  to {}
 }

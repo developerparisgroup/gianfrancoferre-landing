@@ -4,6 +4,8 @@ import "@fontsource/poppins";
 import "@fontsource/baskervville";
 import './App.css';
 import { Image, Segment } from 'semantic-ui-react';
+import MediaQuery from 'react-responsive';
+
 
 import Counter from "./components/Counter";
 import Welcome from './components/Welcome';
@@ -19,14 +21,14 @@ const App = () => {
 
   return (
     <Segment basic style={container}>
+      <div style={counter}>
+        <Counter />
+      </div>
 
       <div style={logo}>
         <Image size='small' centered src={logoImage} />
       </div>
 
-      <div style={counter}>
-        <Counter />
-      </div>
 
       <div style={content}>
         <Welcome />
@@ -46,11 +48,12 @@ const styles = {
     height: '100vh',
     background: `url(${bgImage})`,
     backgroundSize: 'cover',
-    backgroundPosition: 'center',
+    backgroundPosition: 'top',
     display: 'flex',
     flexDirection: 'column',
     margin: 0,
-    padding: 0
+    padding: 0,
+    position: 'relative'
   },
 
   logo: {
@@ -62,7 +65,7 @@ const styles = {
 
   counter: {
     position: 'absolute',
-    top: "20vh",
+    top: "10vh",
     left: 0,
     right: 0,
     bottom: 0
@@ -71,13 +74,13 @@ const styles = {
   content: {
     display: 'flex',
     alignItems: 'flex-end',
-    flexGrow: 3,
-    marginLeft:'5vw'
+    flexGrow: 4,
+    marginLeft: '5vw'
   },
 
   footer: {
     display: 'flex',
-    flexGrow: .5,
+    flexGrow: 1,
     justifyContent: 'center',
     alignItems: 'center',
     gap: '1vw'
