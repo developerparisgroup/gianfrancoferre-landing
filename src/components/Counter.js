@@ -51,13 +51,15 @@ const styles = {
     },
     item: {
         fontFamily: 'poppins',
-        fontSize: 'clamp(2rem, calc(4rem + 10vw),25rem)',
+        fontWight: '700',
+        fontSize: 'clamp(2rem, calc(2rem + 10vw),13rem)',
         letterSpacing: '0.01em',
     },
     letter: {
         fontFamily: 'poppins',
-        fontSize: '4.6rem',
+        fontSize: '2.3rem',
         letterSpacing: '0.01em',
+        fontWight: '700',
     }
 };
 

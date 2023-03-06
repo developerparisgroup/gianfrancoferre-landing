@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;900&display=swap');
+
 @font-face {
-  font-family: 'Gilroy';
-  src: local('Gilroy'), url(./assets/fonts/Gilroy.ttf) format('truetype');
+  font-family: 'BentonSans';
+  src: local('BentonSans'), url(./assets/fonts/BentonSans.ttf) format('truetype');
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 html {
   /* 10px */
@@ -16,12 +23,39 @@ body {
 
 .borderdText {
   -webkit-text-fill-color: transparent !important;
-  -webkit-text-stroke-width: .5px !important;
-  -webkit-text-stroke-color: rgba(255, 255, 255, 0.5) !important;
+  -webkit-text-stroke-width: 1px !important;
+  -webkit-text-stroke-color: rgba(255, 255, 255, 1) !important;
+}
+
+input[type="text"],
+button.ui.black.huge.fluid.button,
+.ui.fluid.selection.dropdown,
+input[type="email"] {
+  border-radius: 0 !important;
+}
+
+*.field {
+  padding: 2px !important;
 }
 
 @keyframes noz {
   from {}
 
   to {}
+}
+
+button.ui.black.huge.fluid.button {
+  padding: 1.29rem;
+}
+
+.main {
+  display: flex;
+  flex-grow: 1;
+  flex-flow: row wrap;
+}
+
+@media only screen and (max-width: 800px) {
+  .main {
+    flex-wrap: wrap-reverse
+  }
 }
